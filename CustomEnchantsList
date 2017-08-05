@@ -99,6 +99,13 @@ Tier2:
     effect: gives you more experience (25% more experience from mobs)
     apply: swords, and axes
     tooltip: "Probably a quality of life book."
+
+  Revive I:
+    effect: Gives +4 hearts, Regen II for 3 seconds, And + 1/2 of an Absorption heart when at half a heart.
+    chance: 8%
+    apply: any armor
+    tooltip: "That was close."
+    note: only happens once per life.
   
 Tier3:
   Dual-Wielding I:
@@ -167,3 +174,21 @@ Tier3:
     effect: gives you more experience (40% more experience from mobs)
     apply: swords, and axes
     tooltip: "Probably a quality of life book."
+    
+  Revengeance I:
+    effect-detail: Has a chance to give you either Strength I, Strength II, Strength III, for various time frames when struck by an opponent. The more they hit you, the higher the chance will be.
+    effect1: Strength I
+    duration1: 4 seconds
+    chance: 5%
+    each-hit-scale: each hit adds an extra 5%
+    effect2: Strength II
+    duration2: 3 seconds
+    chance2: 3%
+    each-hit-scale: each hit adds an extra 3%
+    effect3: Strength III
+    duration3: 2 seconds
+    chance: 1%
+    each-hit-scale: each hit adds an extra 1%
+    apply: breastplate only
+    tooltip: "Be condemned to hell, foolish mortal"
+    note: Each one can only be triggered 5 seconds from each other.
