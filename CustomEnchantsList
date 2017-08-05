@@ -1,5 +1,169 @@
 Tier1:
+  Life-Essence I:
+    effect: +2 Hearts
+    apply: breastplate
+    tooltip: "Whats wrong with a little extra life?"
+    duration: unlimited
+    
+  Hastega I:
+    effect: Haste I
+    duration: unlimited
+    apply: tools
+    tooltip:
+    
+  Thunder I:
+    effect: chance to strike your enemy with a bolt of lightning
+    chance: 30%
+    apply: swords
+    tooltip: "BEGONE"
+    #note: Make it balanced, where it doesn't happen too often, but happens often enough that it feels like its worth it.
+    
+  Astral Pouch I:
+    effect: gives the player increased saturation
+    duration: unlimited saturation I
+    apply: helmet
+    tooltip: "Your belly is embued with astral energy, and somehow on your head."
+    note:
+    
+  Grind I:
+    effect: gives you more experience (10% more experience from mobs)
+    apply: swords, and axes
+    tooltip: "Probably a quality of life book."
+    
   
 Tier2:
-
+  Life-Essence II:
+    effect: +4 Hearts
+    duration: unlimited
+    apply: breastplate
+    tooltip: "Whats wrong with a little extra life?"
+    note: breastplate & leggings only
+    
+  Hastega II:
+    effect: permanent Haste II
+    duration: unlimited
+    apply: tools
+    
+  Thunder II:
+    effect: greater chance to strike your enemy with a bolt of lightning
+    apply: swords and axes
+    chance: 45%
+    tooltip: "BEGONE"
+    note: Make it balanced, where it doesn't happen too often, but happens often enough that it feels like its worth it.
+    
+  Astral Pouch II:
+    effect: gives the player greatly increased saturation
+    duration: unlimited saturation II
+    apply: helmet
+    tooltip: "Your belly is embued with astral energy, and somehow on your head."
+    note:
+    
+  Mercury I:
+    effect: permanent fire resistance
+    apply: any armor
+    tooltip: "Sometimes, things just don't have to make sense"
+    note:
+    
+  Charge I:
+    effect: sometimes shoots a fireball instead of an arrow
+    chance: 40%
+    apply: bow
+    tooltip: "Artificial Ghast Simulator"
+    note: maybe shoots one every 5 or so arrows
+    
+  Pathogen I:
+    effect: sometimes shoots poison arrows
+    chance: 60%
+    apply: bow
+    tooltip: "Made from snake venom! and a lottery machine..."
+    note:
+    
+  Scavenger I:
+    effect: mined blocks go into your inventory
+    apply: pickaxes
+    tooltip: "Dig it all, get it all"
+    note:
+    
+  Shield I:
+    effect: +1 Absorption Heart
+    duration: permanent
+    apply: any armor
+    tooltip: "No matter where you may be you are never alone."
+    
+  Goggles I:
+    effect: permanent night vision
+    apply: Helmet
+    tooltip: "Because goggles look cooler. Yeah, I said it."
+    
+  Grind II:
+    effect: gives you more experience (25% more experience from mobs)
+    apply: swords, and axes
+    tooltip: "Probably a quality of life book."
+  
 Tier3:
+  Dual-Wielding I:
+    effect: has a chance to do double damage to the target
+    chance: 10 - 20%
+    apply: swords only
+    tooltip: "What off-hand should of been"
+    note: Make it balanced where it has a low chance to deal dd to the target but still be useable. If high enough chance it could be too overpowered.
+    
+  Malachite I:
+    effect: has a chance to inflict wither II, for 2 seconds
+    effect2: has a chance to inflict weakness II, for 2 seconds
+    effect3: has a chance to inflict poison II, for 2 seconds
+    duration1: 2s
+    duration2: 2s
+    duration3: 2s
+    chance1: 20%
+    chance2: 60&
+    chance3: 20%
+    tooltip: "Death pursues its victim"
+    apply: swords, and axes only.
+    note: When a player is struck by a sword with Malachite, it has a chance to deal effect 1, 2, or 3. This can only occur every 6 seconds.
+    
+  Life-Essence III:
+    effect: +6 Hearts
+    duration: unlimited
+    apply: breastplate
+    tooltip: "Whats wrong with a little extra life?"
+    
+  Hastega III:
+    effect: permanent Haste III
+    duration: unlimited
+    apply: tools-only (pickaxe)
+    tooltip: "We're not just going fast, we're going three times as fast champ!"
+    
+  Shield II:
+    effect: +2 Absorption Hearts
+    duration: permanent
+    apply: breastplate
+    tooltip: "No matter where you may be you are never alone."
+    
+  Zipper I:
+    effect: has a chance to shoot two arrows instead of one
+    chance: 20 - 40%
+    tooltip: "zippidy doo"
+    note: one arrow shoots after the other (kind of like a burst)
+    
+  Rocket Boots:
+    effect: allows flight in your own faction territory.
+    apply: Boots
+    tooltip: "Breaks when you leave your house, or someone smacks you with a stick."
+    notes: Only in friendly faction territory (MassiveCore Factions), and disables in PvP.
+    
+  Bore I:
+    effect: allows you to mine in a 3x3 area
+    apply: Pickaxe
+    tooltip: "Just a little bit more, eh?"
+    note:
+    
+  Astral Pouch III:
+    effect: unlimited saturation III, never get hungry
+    apply: Helmet
+    tooltip: "Your belly is embued with astral energy, and somehow on your head."
+    
+  Grind III:
+    effect: gives you more experience (40% more experience from mobs)
+    apply: swords, and axes
+    tooltip: "Probably a quality of life book."
