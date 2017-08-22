@@ -191,4 +191,4 @@ Tier3:
     each-hit-scale: each hit adds an extra 1%
     apply: breastplate only
     tooltip: "Be condemned to hell, foolish mortal"
-    note: Each one can only be triggered 5 seconds from each other.
+    note: Each buff can only be triggered once, and once all three are triggered their percentages reset to 0.
